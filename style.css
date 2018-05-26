@@ -107,9 +107,9 @@ h3 {
 #boiler {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('boil.jpg');
     color: #fff;
-    height: 500px;
+    height: 700px;
     margin: 0;
-    padding: 320px 0 200px 0;
+    padding: 300px 0 200px 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,4 +137,20 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
 }
