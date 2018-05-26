@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Oswald";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    padding: 20px;
+}
+
+#header {
+    width: 100%;
+    background: url('smoke.jpg');
+    height: 80px;
+    position: fixed;
+}
+
+#nav {
+    padding-top: 18px;
+    width: 410px;
+    float: right;
+}
+
+#logo a {
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Wellfleet";
+    font-weight: bold;
+}
+
+#nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Wellfleet';
+}
+
+#nav li a.active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+#boiler {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('boil.jpg');
+    color: #fff;
+    height: 500px;
+    margin: 0;
+    padding: 320px 0 200px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#do {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('code.jpg');
+    color: #fff;
+    height: 600px;
+    padding: 240px 0 0 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('contact.jpg');
+    height: 200px;
+    margin: 0 auto;
+    padding: 250px 0;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
